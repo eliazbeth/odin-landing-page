@@ -118,3 +118,25 @@ ul{
     margin-left: 800px;
     font: bold 24px none;
 }
+
+.banner{
+    display: flex;
+    background-color: hsl(217, 91%, 59%);
+    color: white;
+    width: 900px;
+    font-size: 18px;
+    justify-content: space-around;
+    margin: 100px auto;
+    padding: 32px 24px;
+    border-radius: 8px;
+    
+}
+
+.banner-left{
+    display: flex;
+    flex-direction: column;
+}
+
+#banner-title{
+    font: bold 24px none;
+}
