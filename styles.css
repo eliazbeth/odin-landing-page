@@ -5,7 +5,6 @@ body{
     width: 100%;
     height: 100%;
     margin: 0px;
-    font-family: Roboto;
 }
 
 .header, .hero, .footer{
@@ -44,7 +43,6 @@ body{
 #hero-img{
     width: auto;
     height: 200px;
-    
 }
 
 .text{
@@ -72,3 +70,31 @@ ul{
     height: auto;
 }
 
+#content-title{
+    text-align: center;
+}
+
+.examples{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    margin: 32px;
+    margin-bottom: 64px;
+}
+
+.example{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.example .text{
+    color: hsl(215, 28%, 17%);
+    text-align: center;
+    width: 150px;
+}
+
+.example img{
+    width: 150px;
+    height: 150px;
+}
