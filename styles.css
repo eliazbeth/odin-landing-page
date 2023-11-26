@@ -102,13 +102,19 @@ ul{
 .quote{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     background-color: hsl(220, 13%, 91%);
     padding: 50px 100px;
+    
 }
 
 #quote-text{
-    font: italic 36px none;
-
+    font: lighter italic 36px none;
+    color: hsl(215, 28%, 17%);
+    width: 800px;
 }
 
+#author{
+    margin-left: 800px;
+    font: bold 24px none;
+}
