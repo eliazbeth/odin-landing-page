@@ -36,7 +36,7 @@ body{
 
 
 #hero-title{
-    font: 48px 800;
+    font: 800 48px none;
     color: #f9faf8;
 }
 
@@ -46,7 +46,7 @@ body{
 }
 
 .text{
-    font: 18px;
+    font: 18px none;
     color: hsl(220, 13%, 91%);
 }
 
@@ -60,7 +60,7 @@ ul{
     list-style: none;
     gap: 28px;
     margin: 0px;
-    font: 18px;
+    font: 18px none;
     color: hsl(220, 13%, 91%);
 
 }
@@ -98,3 +98,17 @@ ul{
     width: 150px;
     height: 150px;
 }
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(220, 13%, 91%);
+    padding: 50px 100px;
+}
+
+#quote-text{
+    font: italic 36px none;
+
+}
+
