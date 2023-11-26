@@ -54,6 +54,12 @@ body{
 button{
     width: 75px;
     margin: 10px 0px;;
+    border-radius: 8px;
+    background-color: hsl(217, 91%, 59%);
+    color: white;
+    padding: 5px 20px;
+    width: 100px;
+    font: bold 18px none;
 }
 
 ul{
@@ -98,6 +104,8 @@ ul{
 .example img{
     width: 150px;
     height: 150px;
+    border-radius: 8px;
+    border: 3px solid #3882f6;
 }
 
 .quote{
@@ -140,6 +148,10 @@ ul{
 
 #banner-title{
     font: bold 24px none;
+}
+
+.banner button{
+    border: 3px solid white;
 }
 
 .footer{
